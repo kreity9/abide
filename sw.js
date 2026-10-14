@@ -2,7 +2,7 @@
 // server isn't running. Pages are served from cache and refreshed in the
 // background (stale-while-revalidate), so updates show on the next open.
 // Your notebook data is never touched here; it lives in IndexedDB.
-const CACHE = "abide-v3";
+const CACHE = "abide-v4";
 const SHELL = [
   "./", "index.html", "manifest.webmanifest",
   "css/base.css", "css/components.css", "css/views.css",
