@@ -1,0 +1,6 @@
+logs/
+.DS_Store
+__pycache__/
+*.pyc
+.supabase_url
+.supabase_key
